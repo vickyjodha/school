@@ -14,8 +14,8 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
 
-        $this->call(TimeTable::class);
-        $this->call(TimeTableCreate::class);
+        // $this->call(TimeTable::class);
+        // $this->call(TimeTableCreate::class);
         // $this->call(ClassSeed::class);
         // $this->call(ClassUSerSeed::class);
         // $this->call(RoleUserSeed::class);

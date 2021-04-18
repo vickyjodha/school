@@ -47,8 +47,8 @@ class User extends Authenticatable
     {
         return $this->belongsToMany(Role::class, 'role_users');
     }
-    public function Stundent()
+    public function student()
     {
-        return $this->belongsToMany(timeTable::class, 'time_tables');
+        return $this->belongsToMany(timeTable::class, 'time_table_students', 'student_id', 'timetable_id');
     }
 }
